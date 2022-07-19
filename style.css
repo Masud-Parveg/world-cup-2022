@@ -1,0 +1,91 @@
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* Top part start */
+
+.top-container{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container {
+    display:flex;
+    border: 2px solid black;
+    width: 1321px;
+    height: 646px;
+    background: #161616;
+    border-radius: 30px;
+    color: white;
+}
+.title-text {
+    width: 531px;
+    height: 424px;
+    margin-left: 105px;
+}
+.title-text h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+    margin-bottom: -10px;
+   
+}
+.title-text button {
+    margin-top: 30px;
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 5px;
+    font-family: 'HelveticaNeue';
+    font-weight: 400;
+    font-size: 20px;
+}
+.top-banner img {
+    width: 581px;
+    height: 613px;
+}
+  /* top header part end   */
+  /* start middle part left */
+  .upcomming-match {
+    margin-top: 130px;
+    display: grid;
+    flex-direction: column;
+    align-content: space-evenly;
+    justify-content: center;
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    
+    
+  }
+  .upcomming {
+    width: 252px;
+    height: 64px;
+    background: #DD0000;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .goals {
+    width: 252px;
+    height: 64px;
+    background:white;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .blogs {
+    width: 252px;
+    height: 64px;
+    background: white
+    border-radius: 10px;
+    color:black; 
+    font-weight: 600;
+    font-size: 20px;
+  }
