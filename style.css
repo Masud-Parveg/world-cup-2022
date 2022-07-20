@@ -11,6 +11,7 @@ body {
     display: grid;
     justify-content: center;
     margin-top: 50px;
+
 }
 .container {
     display:flex;
@@ -50,7 +51,7 @@ body {
   /* top header part end   */
   /* start middle part left */
   .upcomming-match {
-    margin-top: 130px;
+    margin-top: 10px;
     display: grid;
     flex-direction: column;
     align-content: space-evenly;
@@ -59,7 +60,6 @@ body {
     height: 312px;
     background: #161616;
     border-radius: 10px;
-    
     
   }
   .upcomming {
@@ -89,29 +89,44 @@ body {
     font-weight: 600;
     font-size: 20px;
   }
+
   /* middle part laft end */
   /* start match part */
   .middle-container{
     display: flex;
     margin-left: 150px;
+    margin-top: 130px;
   
   }
   .matches {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
+    row-gap: 15px;    
   }
   .match-fixtures{
     margin-left: 70px;
-
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    padding: 15px;
+    
   }
   .match-info {
     display: flex;
-    column-gap: 15px;
-    margin-top: 130px;
+    column-gap: 0px;
+    padding: 10px;
     
-    
+  
   }
+  .button-transfer {
+    border: 1px solid lightslategray;
+    border-radius: 7px;
+    padding: 5px;
+    margin-bottom:-20px;
+  }
+  h4 {
+    margin-bottom: -20px;
+  }
+
   .match-info img{
     width: 93px;
     height: 56px;
@@ -134,6 +149,9 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: #4D4D4D;
+  }
+  .time-comment samp{
+        margin: 15px;
   }
   /* matches part end */
   /* start footer */
@@ -178,3 +196,172 @@ body {
     color: white;
   }
   /* end footer */
+  /* media  Quaries */
+  /* tablet devise */
+
+  @media  (min-width: 768px) and (max-width:1023px) {
+  
+    .top-container{
+      display: grid;
+      justify-content: center;
+      margin-top:25px;
+  }
+  .container {
+      display:flex;
+      width: 734px;
+      height: 398px;
+      margin:0 50px;
+  }
+  .title-text {
+      margin-top:-28px ;
+      margin-left: 76px;
+  }
+  .title-text h1 {
+      font-weight: 700;
+      font-size: 40px;
+      color: #FFFFFF;
+      margin-bottom: -15px;
+     
+  }
+  .title-text p{
+      font-size: 13px;
+      text-align: justify;
+
+  }
+  .title-text button {
+      margin-top: -10px;
+      width: 161px;
+      height: 48px;
+     
+  }
+  .top-banner img {
+      width: 323px;
+      height: 340px;
+  }
+
+  /* second part */
+
+  .middle-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .upcomming-match {
+    margin-top: -100px;
+    margin-left: -130px;
+    display: flex;
+    flex-direction: row;
+    row-gap: 25px;
+    border: 2px solid white;
+    background-color: #FFFFFF;
+    width: 700px;
+    height: 100px;
+    
+  }
+  .upcomming .goals .blogs {
+    font-size: 20px;
+    width: 230px;
+    height: 64px;
+    align-items: center;
+    
+  }
+    /* third part */
+
+    .matches {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-left: -130px;
+      
+    }
+    .match-fixtures{
+      margin-left: 25px;
+      width: 270px;
+      height: 315px;
+      padding: 9px;
+  
+    }
+    .match-info {
+      display: flex;
+      column-gap: 15px;
+      
+    }
+    .match-info img{
+      width: 100px;
+      height: 68px;
+    }
+    .match-info p {
+      font-weight: 700;
+      font-size: 16px;
+    }
+    .match-time{
+      margin-top: 15px;
+      display: grid;
+  
+    }
+    .match-time h2 {
+      font-weight: 600;
+      font-size: 20px;
+    }
+    .match-time p {
+      margin-top: -10px;
+      font-weight: 400;
+      font-size: 16px;
+      color: #4D4D4D;
+    }
+  
+  /* middle part laft end */
+  
+  /* footer part */
+  .footer-container {
+    background-color: black;
+    color: white;
+    width: 834px;
+    height: 345px;
+    margin-top: 130px;
+  }
+
+  .footer-container h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+   padding-top: 120px;
+    
+  }
+  .footer-manu {
+    text-align: center;
+    margin-top: 70px;
+    
+  }
+  .footer-manu a {
+    text-decoration: none;
+    color: #B9B9B9;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 30px;
+    
+  }
+  .Social-site {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+
+  }
+  .Social-site a {
+    text-align: center;
+    margin-right: 30px;
+    color: white;
+  }
+  }
+
+   /* Mobile devise */
+   @media  (mix-width: 767px) {
+       
+      .top-container{
+      display: grid;
+      justify-content: center;
+      margin-top: 50px;
+    
+    }
+      
+}
+  
