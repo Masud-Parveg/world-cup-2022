@@ -18,7 +18,7 @@ body {
     border: 2px solid black;
     width: 1321px;
     height: 646px;
-    background: #161616;
+    background:black;
     border-radius: 30px;
     color: white;
 }
@@ -45,8 +45,9 @@ body {
     font-size: 20px;
 }
 .top-banner img {
-    width: 581px;
-    height: 613px;
+    width: 571px;
+    height: 603px;
+    border-radius: 25px;
 }
   /* top header part end   */
   /* start middle part left */
@@ -232,11 +233,12 @@ body {
       margin-top: -10px;
       width: 161px;
       height: 48px;
-     
+          
   }
   .top-banner img {
       width: 323px;
       height: 340px;
+      margin-top: px;
   }
 
   /* second part */
@@ -406,8 +408,8 @@ body {
      
   }
   .top-banner img {
-      width: 233px;
-      height: 245px;
+      width: 213px;
+      height: 225px;
       margin-bottom: -64px;
   }
 
